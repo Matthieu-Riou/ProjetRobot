@@ -5,7 +5,7 @@ int data = 0;
 
 void setup(){
   Serial.begin(9600);
-  analogWrite(angle);
+  analogWrite(angle, 90);
   digitalWrite(mAvant, LOW);
   digitalWrite(mArrier, LOW);
 }
