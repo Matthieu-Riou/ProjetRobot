@@ -76,6 +76,9 @@ void loop(){
         Serial.println(data);
         myservo.write(data);
         break;
+      case 4:
+        //TODO infrason
+        break;
       default:
         Serial.println('Error');
         break; 
